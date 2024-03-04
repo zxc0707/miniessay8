@@ -6,7 +6,7 @@ editor: visual
 toc: true
 date: "today"
 date-format: "long"
-thanks: "Files are Availiable at https://github.com/zxc0707/miniessay8"
+thanks: "Peer review from Zhijun Zhong and Files are Availiable at https://github.com/zxc0707/miniessay8"
 bibliography: ref8.bib
 ---
 
@@ -28,8 +28,7 @@ Finally, there is MNAR, which represents the direct relationship between the mis
 
 The above is the explanation and classification of missing data in statistics.
 
-
-#  What Should You Do About It?
+# What Should You Do About It?
 
 Based on the extensive use of statistics and attempts to deal with missing data, researchers and statisticians have summarized the two main techniques in modern times, namely deletion and single imputation approaches. Joseph L. Schafer additionally mentioned the method of reweighting and averaging the available items (@article2). These methods can make the final processed database more reasonable and enhance credibility by targeting the phenomenon of missing data that affects statistical results.
 
@@ -41,30 +40,16 @@ The deletion method is the most common way to deal with missing data. The specif
 
 Another method frequently used by researchers to deal with missing data is called Single Inputation. Its main step is to replace missing data with other appropriate values. The two different replacement data are the mean values, and values that are predicted by the regression equation. The mean is to average the existing data except for missing data and replace each missing value with this average. The linear regression equation can also be used as one of the methods to estimate missing data. A regression equation is established through the existing data and the complete variables are used as predictor variables to estimate the missing data. This approach can ensure that the gap with the actual results is narrowed while ensuring the sample size, so it is widely used.
 
+## Reweighting
 
-## Reweighting & Averaging The Available Items
 The reweighting method refers to adjusting the weight assigned to the observation value. For example, it can make the existing data have a greater decisiveness and proportion in the final result to reduce the impact of missing data on the result. However, this method can only be used for data measurement errors or inaccurate data measurement due to technology and cannot be used when the data is completely missing. This is because when data are missing, the weight cannot be reduced as this would ignore the importance of the single data.
 
-Averaging The Available Items is relatively not widely used because this method lacks certain recognition and is extremely limited. It can only be used to reintegrate some highly correlated variables in the data to make the variables in this new large set replaceable to replace the missing data with other data. This method should not be used in MCAR because it will cause bias. Specifically, when we replace some missing data (MCNR) that are highly correlated with the results with some relatively uncorrelated data, it will cause bias. Undesirable error.
+## Averaging The Available Items
 
+Averaging The Available Items is relatively not widely used because this method lacks certain recognition and is extremely limited. It can only be used to reintegrate some highly correlated variables in the data to make the variables in this new large set replaceable to replace the missing data with other data. This method should not be used in MCAR because it will cause bias. Specifically, when we replace some missing data (MCNR) that are highly correlated with the results with some relatively uncorrelated data, it will cause bias.
 
 # Conclusion
 
 The above introduces the definitions and three main classifications of missing data and explains the advantages and disadvantages of modern methods for dealing with missing data. The four seemingly useful and reliable methods mentioned above were actually denied by Judi Scheffer through observations and experiments. The method of substituting average values into missing data actually destroys the variance structure of the original data and changes it into an unnatural data set. For missing data other than MCAR categories, the deletion method is also considered wrong because it will seriously reduce the sample size. Thus, for statisticians and researchers, it is most reasonable to avoid data missing as much as possible and to choose the least destructive method according to the type of data missing.(@article3)
 
-
 # References
-
-
-
-
-
-
-
-
-
-
-
-
-
-
