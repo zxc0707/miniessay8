@@ -6,7 +6,7 @@ editor: visual
 toc: true
 date: "today"
 date-format: "long"
-thanks: "Files are Availiable at "
+thanks: "Files are Availiable at https://github.com/zxc0707/miniessay8"
 bibliography: ref8.bib
 ---
 
